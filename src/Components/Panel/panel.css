@@ -1,0 +1,17 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.panelTitle {
+    margin-bottom: 14px;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
