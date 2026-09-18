@@ -1,0 +1,4 @@
+.homeScreenParentDiv {
+    display: flex;
+    overflow: hidden;
+}

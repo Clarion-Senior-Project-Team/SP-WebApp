@@ -1,0 +1,29 @@
+.nav-tab {
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #5a5f66;
+    cursor: pointer;
+    border: none;
+    font-family: "Inter";
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    text-decoration: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.nav-tab-active {
+    box-sizing: border-box;
+    background-color: #e3eaf7;
+    color: #184b9e;
+    border: 1px solid #184b9e;
+    font-family: "Inter";
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    text-decoration: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
