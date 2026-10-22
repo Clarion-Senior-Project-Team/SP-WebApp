@@ -8,7 +8,9 @@ const NavBar = (props) => {
     return (
 
         <div className="NavBar">
-            <div className="NavHeader">Rutledge</div>
+            <div className="NavHeader">
+               Rutledge
+            </div>
 
             <Tab to="/" tabName="Dashboard"/>
             <Tab to="/TimeClocking" tabName="Time Clocking"/>

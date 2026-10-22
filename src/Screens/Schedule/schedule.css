@@ -1,0 +1,13 @@
+.schedule-screen {
+    min-height: 100%;
+    padding: 30px;
+    background: #edecec;
+    box-sizing: border-box;
+}
+
+.calendar-container {
+    background: #484747;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
