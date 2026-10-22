@@ -4,7 +4,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2rem;
-    background-color: #ffffff;
+    background-color: #B30000;
     border-radius: 5px;
     height: 100%;
     padding-left: 1rem;
@@ -18,7 +18,9 @@
 .NavHeader {
     display: flex;
     font-family: "Fraunces";
+    margin-top: 25px;
     margin-bottom: 2rem;
+    font-size: 30px;
     font-weight: 600;
     align-items: center;
     justify-content: center;

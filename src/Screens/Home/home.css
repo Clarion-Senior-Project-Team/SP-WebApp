@@ -1,4 +1,100 @@
-.homeScreenParentDiv {
-    display: flex;
-    overflow: hidden;
+
+.screenParentDiv {
+    min-height: 100vh;
+    padding: 24px;
+    background: #f3f4f6;
+    color: #222;
+}
+
+.screenParentDiv > h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 36px;
+    position: relative;
+    z-index: 1;
+}
+
+.dashboard-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 24px;
+    min-height: calc(100vh - 150px);
+    align-items: stretch;
+    margin-top: 20px;
+}
+
+.calendar-panel {
+    min-width: 0;
+    min-height: 600px;
+    margin-top: 10px;
+    /*margin-bottom: 30px;*/
+}
+
+.clockIn {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 420px;
+    max-width: calc(100% - 48px);
+    background: #fff;
+    color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.clockIn h2 {
+    color: #222;
+    margin-bottom: 30px;
+}
+
+/* My Hours - bottom right */
+.my-hours {
+    position: absolute;
+    right: 50px;
+    top: 350px;
+    width: 420px;
+    max-width: calc(100% - 48px);
+    background: #b3000077;
+    color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+    .my-hours h2 {
+        color: #222;
+        margin-bottom: 16px;
+    }
+
+.pay-section {
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+    .pay-section:last-child {
+        border-bottom: none;
+    }
+
+.my-hours h3 {
+    color: #222;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.my-hours p {
+    color: #444;
+    margin-bottom: 8px;
+}
+
+/* Keep the panel inside the screen on smaller devices */
+@media (max-width: 600px) {
+    .my-hours {
+        left: 16px;
+        right: 16px;
+        bottom: 16px;
+        width: auto;
+        max-width: none;
+    }
 }
