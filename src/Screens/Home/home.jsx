@@ -1,11 +1,5 @@
-/*
-npm install
-cd .\SP-WebApp-develop
-npm run dev 
-*/
-
 import "./home.css";
-import Calendar from "./calendar";
+import Calendar from "../../Components/Calendar/calendar.jsx";
 
 const Home = () => {
     return (

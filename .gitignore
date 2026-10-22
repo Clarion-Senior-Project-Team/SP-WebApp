@@ -10,3 +10,4 @@ node_modules/
 # Build files
 build/
 
+.DS_Store
